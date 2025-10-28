@@ -68,12 +68,35 @@ You can use these models freely by generating api key in https://openrouter.ai/
 Note: 1.openrouter gives you the unlimited credits. And it contains free ai models.
 2. This Connector and openrouter is for POC and Practice purpose only.
 
-##Test with SaaS and Self-Managed
+## Test with SaaS and Self-Managed
 
-###Setting Up in Saas/Self managed Environment:
+### Setting Up in Saas/Self managed Environment:
 1.	Navigate to Camunda SaaS.
-2.	Upload the connector template from https://github.com/charanteja469/Camunda-FreeAIAgents/blob/main/FreeAiAgentsConnector.json or download it from marketplace
+2.	Upload the connector template from https://github.com/charanteja469/Camunda-FreeAIAgents/blob/main/FreeAiAgentsConnector.json or download it from marketplace.
 3.	if your using Desktop modeler--> go to modeler folder-->resources-->element-templates-->Past the above downloaded JOLT Connector Template
+
+
+### STEP BY STEP Process to Configure and Use JOLT Connector
+1.	Create a workflow with Start event, Task, End Event.
+2.	select the task and click on element change type and search for Free AI Agents Connector.
+   <img width="940" height="347" alt="image" src="https://github.com/user-attachments/assets/389ed9e7-2842-41ab-aa8d-90725ec038bc" />
+   
+3. configure the properties like API Key(which you created previously).
+<img width="940" height="398" alt="image" src="https://github.com/user-attachments/assets/347777f6-7718-49bd-a9d6-6b01082fc88d" />
+
+4. select the Model from list(you can use same API key for all models).
+
+<img width="940" height="429" alt="image" src="https://github.com/user-attachments/assets/2d46fc92-a206-4ecb-a53a-d93dd5c68436" />
+
+5. provide the prompt.
+
+   <img width="940" height="402" alt="image" src="https://github.com/user-attachments/assets/94aad8c0-bdca-4cb0-8c62-938c59c4b711" />
+
+6.	the response from the agent will be stored in agentResponse Variable.
+  
+7.	Deploy and Run the workflow. you can see the output in operate.
+   <img width="940" height="433" alt="image" src="https://github.com/user-attachments/assets/5772727c-2f29-4cf3-8a7a-690a3ffb1170" />
+
 
 
 
