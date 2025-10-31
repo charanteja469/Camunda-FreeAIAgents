@@ -307,6 +307,7 @@
       "description": "Input to be evaluated",
       "group": "input",
       "type": "Text",
+      "feel": "optional",
       "constraints": {
         "notEmpty": true
       },
