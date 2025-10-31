@@ -1,4 +1,4 @@
-# Camunda-FreeAIAgents
+# Camunda-Free AI Agents (OpenRouter Connector)
 
 This Connectors provides you models like
 "Llama Maverick",
