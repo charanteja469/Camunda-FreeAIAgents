@@ -76,7 +76,7 @@ Note: 1.openrouter gives you the unlimited credits. And it contains free ai mode
 3.	if your using Desktop modeler--> go to modeler folder-->resources-->element-templates-->Past the above downloaded JOLT Connector Template
 
 
-### STEP BY STEP Process to Configure and Use JOLT Connector
+### STEP BY STEP Process to Configure and Use OpenRouter Connector
 1.	Create a workflow with Start event, Task, End Event.
 2.	select the task and click on element change type and search for Free AI Agents Connector.
    <img width="940" height="347" alt="image" src="https://github.com/user-attachments/assets/389ed9e7-2842-41ab-aa8d-90725ec038bc" />
