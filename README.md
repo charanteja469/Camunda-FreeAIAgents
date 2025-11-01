@@ -73,7 +73,7 @@ Note: 1.openrouter gives you the unlimited credits. And it contains free ai mode
 ### Setting Up in Saas/Self managed Environment:
 1.	Navigate to Camunda SaaS.
 2.	Upload the connector template from https://github.com/charanteja469/Camunda-FreeAIAgents/blob/main/FreeAiAgentsConnector.json or download it from marketplace.
-3.	if your using Desktop modeler--> go to modeler folder-->resources-->element-templates-->Past the above downloaded JOLT Connector Template
+3.	if your using Desktop modeler--> go to modeler folder-->resources-->element-templates-->Past the above downloaded Openrouter Connector Template
 
 
 ### STEP BY STEP Process to Configure and Use OpenRouter Connector
